@@ -1,11 +1,11 @@
 <template>
   <div class="pt-24 pb-20 w-10/12 md:w-3/4 mx-auto">
     <div class="text-center pb-20">
-      <h1 class="text-2xl font-normal w-full md:w-2/3 mx-auto">
+      <h1 class="text-3xl font-normal w-full md:w-2/3 mx-auto">
         This talks about CoverWhale’s process and commitment to innovation.
       </h1>
     </div>
-    <div class="flex justify-center items-center flex-wrap lg:flex-nowrap gap-10 px-0 lg:px-10">
+    <div class="flex justify-center items-center flex-wrap lg:flex-nowrap gap-6 px-0 lg:px-10">
       <FlatCardsInAbout
         cardTitle="Data Collection"
         cardDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elitas, sed do eiusd

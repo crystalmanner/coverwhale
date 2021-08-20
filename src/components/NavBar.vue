@@ -1,8 +1,8 @@
 <template>
   <div class="nav flex justify-between items-center bg-purpleMain pt-12 pb-28 px-10">
-    <div class="text-white">
+    <router-link to="/" class="cursor-pointer">
       <img src="@/assets/cover-whale-logo-white.png" class="w-44" alt="">
-    </div>
+    </router-link>
     <div
       class="hidden lg:flex items-center text-sm gap-9 text-white font-semibold text-gray-100"
     >

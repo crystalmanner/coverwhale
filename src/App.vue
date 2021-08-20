@@ -1,20 +1,14 @@
 <template>
   <div id="app">
-    <transition-group appear name="fade">
-      <NavBar key="nav" />
+    <transition appear name="fade">
       <router-view key="current-view"/>
-      <div id="footer" key="footer"></div>
-    </transition-group>
+    </transition>
   </div>
 </template>
 
 <script>
-import NavBar from "@/components/NavBar.vue";
 
 export default {
-  components: {
-    NavBar,
-  },
 };
 </script>
 
@@ -22,7 +16,7 @@ export default {
 /* fade transition */
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.6s;
+  transition: opacity 0.3s;
 }
 .fade-enter, .fade-leave-to {
   opacity: 0;
