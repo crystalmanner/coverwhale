@@ -1,0 +1,28 @@
+{
+  "name": "FounderScale",
+  "version": "1.0.0",
+  "description": "FounderScale",
+  "author": "Norman",
+  "license": "ISC",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "axios": "^0.18.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "google-auth-library": "^2.0.0",
+    "googleapis": "^34.0.0",
+    "lodash": "^4.17.15",
+    "node-cron": "^2.0.3",
+    "request": "^2.88.0",
+    "save": "^2.3.2",
+    "xml2js": "*"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
