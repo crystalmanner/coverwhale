@@ -1,8 +1,8 @@
 {
-  "name": "FounderScale",
+  "name": "CoverWhale",
   "version": "1.0.0",
-  "description": "FounderScale",
-  "author": "Norman",
+  "description": "CoverWhale",
+  "author": "Denis",
   "license": "ISC",
   "scripts": {
     "start": "node server.js"
