@@ -17,7 +17,7 @@
           buttonLabel="GET STARTED"
           variant="bg-gray-200 border-none rounded-full px-6 py-2 text-purpleMain font-semibold w-40"
         >
-          <template v-slot:iconSvgPrepend>
+          <template v-slot:iconPrepend>
             <img
               src="@/assets/Icons/chatting-purple.png"
               class="w-4"

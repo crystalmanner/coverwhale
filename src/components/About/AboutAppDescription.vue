@@ -10,7 +10,7 @@
         buttonLabel="GET STARTED"
         variant="bg-purpleExtraLight border-none font-semibold px-6 py-2"
       >
-        <template v-slot:iconSvgPrepend>
+        <template v-slot:iconPrepend>
           <img src="@/assets/Icons/chatting.png" class="w-3" alt="">
         </template>
       </BaseButton>

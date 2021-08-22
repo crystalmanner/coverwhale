@@ -73,28 +73,19 @@
               </div>
             </div>
           </div>
-          <div class="hidden md:block">
-            <span
+          <div class="hidden md:flex gap-2 mx-auto pb-4">
+            <div
               @click="gettingCoveredPage = 1"
-              :class="[
-                'border rounded px-1.5 py-0.5 mt-2 cursor-pointer ',
-                gettingCoveredPage == 1 ? 'bg-purpleMain' : '',
-              ]"
-            ></span>
-            <span
+              :class="['page-changer ', gettingCoveredPage == 1 ? 'page-changer-active' : 'page-changer-inactive']"
+            ></div>
+            <div
               @click="gettingCoveredPage = 2"
-              :class="[
-                'border rounded px-1.5 py-0.5 mt-2 cursor-pointer ',
-                gettingCoveredPage == 2 ? 'bg-purpleMain' : '',
-              ]"
-            ></span>
-            <span
+              :class="['page-changer ', gettingCoveredPage == 2 ? 'page-changer-active' : 'page-changer-inactive']"
+            ></div>
+            <div
               @click="gettingCoveredPage = 3"
-              :class="[
-                'border rounded px-1.5 py-0.5 mt-2 cursor-pointer ',
-                gettingCoveredPage == 3 ? 'bg-purpleMain' : '',
-              ]"
-            ></span>
+              :class="['page-changer ', gettingCoveredPage == 3 ? 'page-changer-active' : 'page-changer-inactive']"
+            ></div>
           </div>
         </div>
       </div>

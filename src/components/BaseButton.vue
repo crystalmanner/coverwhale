@@ -7,9 +7,9 @@
       "
       @click="buttonFunction()"
     >
-      <slot name="iconSvgPrepend"></slot>
+      <slot name="iconPrepend"></slot>
       {{ buttonLabel }}
-      <slot name="iconSvgAppend"></slot>
+      <slot name="iconAppend"></slot>
     </button>
   </div>
 </template>

@@ -1,64 +1,71 @@
 <template>
-  <div class="mx-auto p-16 pb-5">
-    <div class="flex flex-wrap mb-24">
-      <div class="flex flex-1 flex-col">
-        <h1 class="text-purple mb-5">Cover Whale</h1>
-        <div class="flex">
-          <i class="fad fa-envelope-square  text-xl mr-4"></i>
-          <span class="mb-4">info@coverwahle.com</span>
+  <div class="w-11/12 lg:w-9/12 mx-auto py-14">
+    <div class="flex flex-col 2md:flex-row justify-between gap-10 mb-12 2md:mb-24">
+      <div>
+        <div>
+          <img src="@/assets/cover-whale-logo-purple.png" class="w-44 mb-4" alt="">
         </div>
-        <div class="flex">
-          <i class="fad fa-phone  text-xl text-gray mr-4"></i>
-          <span> +1 206 656 1176</span>
+        <div class="flex gap-4 mb-3 hidden 2md:flex">
+          <img src="@/assets/Icons/contact-mail.png" class="w-7" alt="">
+          <p class="text-sm font-light text-purpleMain">info@coverwhale.com</p>
+        </div>
+        <div class="flex gap-4 hidden 2md:flex">
+          <img src="@/assets/Icons/contact-phone.png" class="w-7" alt="">
+          <p class="text-sm font-light text-purpleMain">+1 206 656 1175</p>
         </div>
       </div>
-      <div class="flex flex-wrap gap-6">
-        <ul class="list-none flex flex-col mr-12">
-          <li class="mb-4 text-lg">About</li>
-          <li class="mb-4">Team</li>
-          <li class="mb-4">Our Process</li>
-        </ul>
-        <ul class="flex flex-col list-none">
-          <li class="mb-4 text-lg">Coverage</li>
-          <li class="mb-4">Autobile Liability</li>
-          <li class="mb-4">Physical Damage</li>
-          <li class="mb-4">Cargo</li>
-          <li class="mb-4">Truckers General Liability</li>
-          <li class="mb-4">Non-Trucking Liability Insurance</li>
-        </ul>
-        <ul class="list-none">
-          <li class="mb-4 text-lg">Agents</li>
-        </ul>
-        <ul class=" list-none">
-          <li class="text-lg">Investors</li>
-        </ul>
-        <ul class="list-none">
-          <li class="text-lg">Careers</li>
-        </ul>
-        <ul class="list-none">
-          <li class="text-lg">Contact</li>
-        </ul>
-        <ul class="list-none">
-          <li >Login</li>
-        </ul>
+
+      <div class="flex flex-col 2md:flex-row gap-6 gray-colored-text">
+        <div class="flex flex-col gap-2 mr-3">
+          <router-link to="" class="text-md">About</router-link>
+
+          <router-link to="" class="text-sm">Team</router-link>
+          <router-link to="" class="text-sm">Our Process</router-link>
+        </div>
+        <div class="flex flex-col gap-2">
+          <router-link to="" class="text-md">Coverage</router-link>
+
+          <router-link to="" class="text-sm">Automobile Liability</router-link>
+          <router-link to="" class="text-sm">Physical Damage</router-link>
+          <router-link to="" class="text-sm">Cargo</router-link>
+          <router-link to="" class="text-sm">Truckers General Liability</router-link>
+          <router-link to="" class="text-sm">Non-Trucking Liability Insurance</router-link>
+        </div>
+        <div>
+          <router-link to="" class="text-md">Agents</router-link>
+        </div>
+        <div>
+          <router-link to="" class="text-md">Investors</router-link>
+        </div>
+        <div>
+          <router-link to="" class="text-md">Careers</router-link>
+        </div>
+        <div>
+          <router-link to="" class="text-md">Contact</router-link>
+        </div>
+        <div>
+          <router-link to="" class="text-md">Login</router-link>
+        </div>
       </div>
     </div>
-    <div class="flex justify-end gap-4 font-light">
-      <ul class="list-none">
-        <li>Licenses</li>
-      </ul>
-      <ul>
-        <li>Privacy Policy</li>
-      </ul>
-      <ul>
-        <li>Term of use</li>
-      </ul>
+    <div class="flex justify-end items-center gap-3">
+      <p class="text-sm font-light">Licenses</p>
+      <p class="text-4xl text-gray-500 relative bottom-3">.</p>
+      <p class="text-sm font-light">Privacy Policy</p>
+      <p class="text-4xl text-gray-500 relative bottom-3">.</p>
+      <p class="text-sm font-light">Terms of Use</p>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+
+}
 </script>
 
-<style></style>
+<style scoped>
+.gray-colored-text {
+  color: #3B3B3B;
+}
+</style>

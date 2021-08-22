@@ -7,6 +7,7 @@
       <CoverWhaleNewWay/>
       <GettingCoveredSteps/>
       <ReviewsFromPeople/>
+      <ContactUsCards/>
       <Footer/>
     </div>
   </div>
@@ -18,6 +19,7 @@ import OverflowingCard from "@/components/Home/HomeOverflowingCard.vue"
 import CoverWhaleNewWay from "@/components/Home/CoverWhaleNewWay.vue"
 import GettingCoveredSteps from "@/components/Home/GettingCoveredSteps.vue"
 import ReviewsFromPeople from "@/components/Home/ReviewsFromPeople.vue"
+import ContactUsCards from "@/components/ContactUsCards.vue"
 import NavBar from "@/components/NavBar.vue";
 import Footer from "@/components/Footer.vue";
 
@@ -30,7 +32,8 @@ export default {
     GettingCoveredSteps,
     ReviewsFromPeople,
     NavBar,
-    Footer
+    Footer,
+    ContactUsCards
   },
 }
 </script>
