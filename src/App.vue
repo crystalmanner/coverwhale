@@ -50,7 +50,7 @@ export default {
 
 .card-general {
   background-color: #fff;
-  box-shadow: 5px 5px 25px 6px rgba(94, 94, 94, 0.35);
+  box-shadow: 4px 3px 12px 4px rgba(145, 145, 145, 0.295);
   border-radius: 10px;
   overflow: hidden;
 }
@@ -73,6 +73,34 @@ export default {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.position-center {
+    position: absolute;
+    left: -50%;
+    right: -50%;
+    transform: translateX(50%, 50%);
+}
+
+.page-changer {
+  cursor: pointer;
+  padding: 1.6px;
+  border-radius: 9999px;
+  width: 3px;
+  margin-top: 16px;
+}
+.page-changer-active {
+  border: 3.8px solid rgb(119, 119, 119);
+}
+.page-changer-active:hover {
+  border: 3.8px solid rgb(54, 54, 54);
+}
+.page-changer-inactive {
+  padding: 3.2px;
+  border: 2px solid rgb(119, 119, 119);
+}
+.page-changer-inactive:hover {
+  border: 2px solid black;
 }
 
 </style>

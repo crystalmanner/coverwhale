@@ -8,7 +8,9 @@
       >
         <div class="flex flex-col items-center gap-10">
           <div class="text-left">
-            <h1 class="font-bold text-3xl mb-3">What people are saying about us.</h1>
+            <h1 class="font-bold text-3xl mb-3">
+              What people are saying about us.
+            </h1>
             <p class="text-sm">
               This section talks about the customer first mentality that
               CoverWhale has. Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -19,26 +21,41 @@
           <div>
             <img class="w-28" src="@/assets/Home/reviews-starts.png" alt="" />
           </div>
-          <div class="block lg:hidden">
+          <div class="flex flex-col items-center lg:hidden">
             <ReviewCards
-              class="justify-self-start mx-auto"
+              class="mx-auto"
               userName="Ashley Meg"
               userJob="Web Developer at Facebook"
               userReview="Lorem ipsum dolor sit amet, consectetur adipiscing elitas, sed do eiusd tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
             />
-            <div class="w-8 mx-auto">
-              <span
+            <div class="flex gap-2 mx-auto">
+              <div
                 @click="reviewCardsPage = 1"
-                class="h-1 rounded-full bg-gray-600 border-gray-300 p-1 mr-1.5 cursor-pointer"
-              ></span>
-              <span
+                :class="[
+                  'page-changer ',
+                  reviewCardsPage == 1
+                    ? 'page-changer-active'
+                    : 'page-changer-inactive',
+                ]"
+              ></div>
+              <div
                 @click="reviewCardsPage = 2"
-                class="h-1 rounded-full bg-gray-600 border-black p-1 mr-1.5 cursor-pointer"
-              ></span>
-              <span
+                :class="[
+                  'page-changer ',
+                  reviewCardsPage == 2
+                    ? 'page-changer-active'
+                    : 'page-changer-inactive',
+                ]"
+              ></div>
+              <div
                 @click="reviewCardsPage = 3"
-                class="h-1 rounded-full bg-gray-600 border-gray-300 p-1 mr-1.5 cursor-pointer"
-              ></span>
+                :class="[
+                  'page-changer ',
+                  reviewCardsPage == 3
+                    ? 'page-changer-active'
+                    : 'page-changer-inactive',
+                ]"
+              ></div>
             </div>
           </div>
         </div>
@@ -66,21 +83,34 @@
           <div>
             <div
               @click="reviewCardsPage = 1"
-              :class="['page-changer ', reviewCardsPage == 1 ? 'page-changer-active' : 'page-changer-inactive']"
+              :class="[
+                'page-changer ',
+                reviewCardsPage == 1
+                  ? 'page-changer-active'
+                  : 'page-changer-inactive',
+              ]"
             ></div>
             <div
               @click="reviewCardsPage = 2"
-              :class="['page-changer ', reviewCardsPage == 2 ? 'page-changer-active' : 'page-changer-inactive']"
+              :class="[
+                'page-changer ',
+                reviewCardsPage == 2
+                  ? 'page-changer-active'
+                  : 'page-changer-inactive',
+              ]"
             ></div>
             <div
               @click="reviewCardsPage = 3"
-              :class="['page-changer ', reviewCardsPage == 3 ? 'page-changer-active' : 'page-changer-inactive']"
+              :class="[
+                'page-changer ',
+                reviewCardsPage == 3
+                  ? 'page-changer-active'
+                  : 'page-changer-inactive',
+              ]"
             ></div>
           </div>
         </div>
       </div>
-
-
 
       <!-- the below code will be removed and the above will be used as a component when dealing with actual data -->
 
@@ -102,26 +132,41 @@
           <div>
             <img class="w-28" src="@/assets/Home/reviews-starts.png" alt="" />
           </div>
-          <div class="block lg:hidden">
+          <div class="flex flex-col items-center lg:hidden">
             <ReviewCards
-              class="justify-self-start mx-auto"
+              class="mx-auto"
               userName="Ashley Meg"
               userJob="Web Developer at Facebook"
               userReview="Lorem ipsum dolor sit amet, consectetur adipiscing elitas, sed do eiusd tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
             />
-            <div class="w-8 mx-auto">
-              <span
+            <div class="flex gap-2 mx-auto">
+              <div
                 @click="reviewCardsPage = 1"
-                class="h-1 rounded-full bg-gray-600 border-gray-300 p-1 mr-1.5 cursor-pointer"
-              ></span>
-              <span
+                :class="[
+                  'page-changer ',
+                  reviewCardsPage == 1
+                    ? 'page-changer-active'
+                    : 'page-changer-inactive',
+                ]"
+              ></div>
+              <div
                 @click="reviewCardsPage = 2"
-                class="h-1 rounded-full bg-gray-600 border-black p-1 mr-1.5 cursor-pointer"
-              ></span>
-              <span
+                :class="[
+                  'page-changer ',
+                  reviewCardsPage == 2
+                    ? 'page-changer-active'
+                    : 'page-changer-inactive',
+                ]"
+              ></div>
+              <div
                 @click="reviewCardsPage = 3"
-                class="h-1 rounded-full bg-gray-600 border-gray-300 p-1 mr-1.5 cursor-pointer"
-              ></span>
+                :class="[
+                  'page-changer ',
+                  reviewCardsPage == 3
+                    ? 'page-changer-active'
+                    : 'page-changer-inactive',
+                ]"
+              ></div>
             </div>
           </div>
         </div>
@@ -149,15 +194,30 @@
           <div>
             <div
               @click="reviewCardsPage = 1"
-              :class="['page-changer ', reviewCardsPage == 1 ? 'page-changer-active' : 'page-changer-inactive']"
+              :class="[
+                'page-changer ',
+                reviewCardsPage == 1
+                  ? 'page-changer-active'
+                  : 'page-changer-inactive',
+              ]"
             ></div>
             <div
               @click="reviewCardsPage = 2"
-              :class="['page-changer ', reviewCardsPage == 2 ? 'page-changer-active' : 'page-changer-inactive']"
+              :class="[
+                'page-changer ',
+                reviewCardsPage == 2
+                  ? 'page-changer-active'
+                  : 'page-changer-inactive',
+              ]"
             ></div>
             <div
               @click="reviewCardsPage = 3"
-              :class="['page-changer ', reviewCardsPage == 3 ? 'page-changer-active' : 'page-changer-inactive']"
+              :class="[
+                'page-changer ',
+                reviewCardsPage == 3
+                  ? 'page-changer-active'
+                  : 'page-changer-inactive',
+              ]"
             ></div>
           </div>
         </div>
@@ -181,26 +241,41 @@
           <div>
             <img class="w-28" src="@/assets/Home/reviews-starts.png" alt="" />
           </div>
-          <div class="block lg:hidden">
+          <div class="flex flex-col items-center lg:hidden">
             <ReviewCards
-              class="mx-auto justify-self-start"
+              class="mx-auto"
               userName="Ashley Meg"
               userJob="Web Developer at Facebook"
               userReview="Lorem ipsum dolor sit amet, consectetur adipiscing elitas, sed do eiusd tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
             />
-            <div class="w-8 mx-auto">
-              <span
+            <div class="flex gap-2 mx-auto">
+              <div
                 @click="reviewCardsPage = 1"
-                class="h-1 rounded-full bg-gray-600 border-gray-300 p-1 mr-1.5 cursor-pointer"
-              ></span>
-              <span
+                :class="[
+                  'page-changer ',
+                  reviewCardsPage == 1
+                    ? 'page-changer-active'
+                    : 'page-changer-inactive',
+                ]"
+              ></div>
+              <div
                 @click="reviewCardsPage = 2"
-                class="h-1 rounded-full bg-gray-600 border-black p-1 mr-1.5 cursor-pointer"
-              ></span>
-              <span
+                :class="[
+                  'page-changer ',
+                  reviewCardsPage == 2
+                    ? 'page-changer-active'
+                    : 'page-changer-inactive',
+                ]"
+              ></div>
+              <div
                 @click="reviewCardsPage = 3"
-                class="h-1 rounded-full bg-gray-600 border-gray-300 p-1 mr-1.5 cursor-pointer"
-              ></span>
+                :class="[
+                  'page-changer ',
+                  reviewCardsPage == 3
+                    ? 'page-changer-active'
+                    : 'page-changer-inactive',
+                ]"
+              ></div>
             </div>
           </div>
         </div>
@@ -228,15 +303,30 @@
           <div>
             <div
               @click="reviewCardsPage = 1"
-              :class="['page-changer ', reviewCardsPage == 1 ? 'page-changer-active' : 'page-changer-inactive']"
+              :class="[
+                'page-changer ',
+                reviewCardsPage == 1
+                  ? 'page-changer-active'
+                  : 'page-changer-inactive',
+              ]"
             ></div>
             <div
               @click="reviewCardsPage = 2"
-              :class="['page-changer ', reviewCardsPage == 2 ? 'page-changer-active' : 'page-changer-inactive']"
+              :class="[
+                'page-changer ',
+                reviewCardsPage == 2
+                  ? 'page-changer-active'
+                  : 'page-changer-inactive',
+              ]"
             ></div>
             <div
               @click="reviewCardsPage = 3"
-              :class="['page-changer ', reviewCardsPage == 3 ? 'page-changer-active' : 'page-changer-inactive']"
+              :class="[
+                'page-changer ',
+                reviewCardsPage == 3
+                  ? 'page-changer-active'
+                  : 'page-changer-inactive',
+              ]"
             ></div>
           </div>
         </div>
@@ -281,5 +371,5 @@ export default {
 }
 .page-changer-inactive:hover {
   border: 2px solid black;
-}
-</style>>
+}</style
+>>

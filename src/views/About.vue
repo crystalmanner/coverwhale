@@ -8,7 +8,9 @@
       <PurpleSheetMid/>
       <MeetTheTeam/>
       <PurpleSheetBottom/>
-      <Footer/>
+      <div class="background-for-about-footer">
+        <Footer class="2md:bg-none"/>
+      </div>
     </div>
   </div>
 </template>
@@ -38,3 +40,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.background-for-about-footer {
+  background-color: #f9f2f2;
+}
+</style>

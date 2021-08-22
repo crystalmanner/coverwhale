@@ -23,7 +23,7 @@
             dignissimos. Soluta, fugit vero?
           </p>
           <BaseButton buttonLabel="Read More" variant="bg-purpleMain">
-            <template v-slot:iconSvgAppend>
+            <template v-slot:iconAppend>
               <svg
                 class="w-4"
                 xmlns="http://www.w3.org/2000/svg"
