@@ -17,13 +17,13 @@
 
       <div class="flex flex-col 2md:flex-row gap-6 gray-colored-text">
         <div class="flex flex-col gap-2 mr-3">
-          <router-link to="" class="text-md">About</router-link>
+          <router-link to="/about" class="text-md">About</router-link>
 
           <router-link to="" class="text-sm">Team</router-link>
           <router-link to="" class="text-sm">Our Process</router-link>
         </div>
         <div class="flex flex-col gap-2">
-          <router-link to="" class="text-md">Coverage</router-link>
+          <router-link to="/coverage" class="text-md">Coverage</router-link>
 
           <router-link to="" class="text-sm">Automobile Liability</router-link>
           <router-link to="" class="text-sm">Physical Damage</router-link>

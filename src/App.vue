@@ -1,29 +1,29 @@
 <template>
   <div id="app">
     <transition appear name="fade">
-      <router-view key="current-view"/>
+      <router-view key="current-view" />
     </transition>
   </div>
 </template>
 
 <script>
-
-export default {
-};
+export default {};
 </script>
 
 <style>
 /* fade transition */
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.3s;
+  transition: opacity 0.2s;
 }
-.fade-enter, .fade-leave-to {
+.fade-enter,
+.fade-leave-to {
   opacity: 0;
 }
 
 /* slide-x and fade transition */
-.slide-fade-enter-active, .slide-fade-leave-active {
+/* .slide-fade-enter-active,
+.slide-fade-leave-active {
   transition: all 0.4s ease-in-out;
 }
 .slide-fade-enter-to {
@@ -33,18 +33,33 @@ export default {
 .slide-fade-leave-to {
   transform: translateX(-20px);
   opacity: 0;
+} */
+
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(10px);
+  opacity: 0;
 }
 
 /* slide-y and fade transition */
-.slide-fade-y-enter-active, .slide-fade-y-leave-active {
-  transition: all 0.4s ease-in-out;
+.slide-fade-y-enter-active {
+  transition: all .35s ease;
 }
-.slide-fade-y-enter-to {
-  transform: translateY(60px);
-  opacity: 1;
+.slide-fade-y-leave-active {
+  transition: all .35s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-fade-y-enter {
+  transform: translateY(20px);
+  opacity: 0;
 }
 .slide-fade-y-leave-to {
-  transform: translateY(-60px);
+  transform: translateY(-20px);
   opacity: 0;
 }
 
@@ -74,12 +89,37 @@ export default {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.light-blue-gradient {
+  background: rgb(69, 96, 255);
+  background: linear-gradient(
+    120deg,
+    rgba(69, 96, 255, 1) 0%,
+    rgba(14, 201, 254, 1) 100%
+  );
+}
+.light-purple-gradient {
+  background: rgb(169, 49, 229);
+  background: linear-gradient(
+    120deg,
+    rgba(169, 49, 229, 1) 0%,
+    rgba(79, 4, 254, 1) 100%
+  );
+}
+.light-green-gradient {
+  background: rgb(24, 161, 183);
+  background: linear-gradient(
+    120deg,
+    rgba(24, 161, 183, 1) 0%,
+    rgba(41, 232, 174, 1) 100%
+  );
+}
+
 
 .position-center {
-    position: absolute;
-    left: -50%;
-    right: -50%;
-    transform: translateX(50%, 50%);
+  position: absolute;
+  left: -50%;
+  right: -50%;
+  transform: translateX(50%, 50%);
 }
 
 .page-changer {
@@ -102,5 +142,4 @@ export default {
 .page-changer-inactive:hover {
   border: 2px solid black;
 }
-
 </style>

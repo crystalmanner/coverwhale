@@ -1,7 +1,7 @@
 <template>
   <div class="text-white flex relative bg-purpleMain overflow-hidden">
-    <div class="px-5 sm:px-32 pb-6 md:w-9/12 lg:w-3/5 z-10">
-    <p class="uppercase font-light mb-14">About Us</p>
+    <div class="px-5 sm:px-32 pb-6 pt-14 md:w-9/12 lg:w-3/5 z-10">
+    <p class="uppercase mb-12">About Us</p>
       <p class="text-4xl font-semibold pb-5">
         Navigating our nations highways is complex. <span>Your insurance doesn’t have to be.</span>
       </p>

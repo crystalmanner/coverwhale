@@ -1,6 +1,6 @@
 <template>
   <div>
-    <transition-group name="slide-fade-y" mode="out-in">
+    <transition name="slide-fade-y" mode="out-in">
       <div
         class="grid grid-cols-1 lg:grid-cols-2 items-center px-8 sm:px-16 md:px-32 gap-16"
         key="page1"
@@ -331,7 +331,7 @@
           </div>
         </div>
       </div>
-    </transition-group>
+    </transition>
   </div>
 </template>
 

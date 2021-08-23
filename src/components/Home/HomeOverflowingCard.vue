@@ -16,7 +16,7 @@
           <img class="w-6 lg:w-36 mt-2" src="@/assets/Home/Icons/earth.png" alt="">
         </div>
         <div>
-          <p class="font-bold mb-1">This can be a link to a press release</p>
+          <p class="sm:font-bold mb-1">This can be a link to a press release</p>
           <p class="mb-3">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum
             reiciendis, consequuntur voluptatum dolores itaque natus sapiente
@@ -49,7 +49,7 @@
           <img src="@/assets/Home/Icons/cloud.png" class="w-6 lg:w-36 mt-2" alt="">
         </div>
         <div>
-          <p class="font-bold mb-1">Or just a short announcement</p>
+          <p class="sm:font-bold mb-1">Or just a short announcement</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
             est? Vel enim cupiditate atque facilis, sapiente labore. Nulla,

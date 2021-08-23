@@ -1,6 +1,6 @@
 <template>
-  <div class="text-white flex relative bg-purpleMain overflow-hidden">
-    <div class="px-5 sm:px-32 py-6 md:w-9/12 lg:w-3/5 z-10">
+  <div class="text-white flex relative bg-purpleMain overflow-hidden pt-12 sm:pt-20">
+    <div class="px-5 sm:px-24 py-6 md:w-9/12 lg:w-3/5 z-10">
       <p class="text-4xl font-bold pb-5">
         The most important innovation for truckers <span>since coffee.</span>
       </p>

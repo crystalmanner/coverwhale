@@ -1,15 +1,15 @@
 <template>
   <div class="home">
-    <NavBar/>
-    <AboutAppDescription/>
+    <NavBar />
+    <AboutAppDescription />
     <div class="purple-image-background">
-      <AboutOverflowingCard/>
-      <CoverWhaleProcess/>
-      <PurpleSheetMid/>
-      <MeetTheTeam/>
-      <PurpleSheetBottom/>
+      <AboutOverflowingCard />
+      <CoverWhaleProcess />
+      <PurpleSheetMid />
+      <MeetTheTeam />
       <div class="background-for-about-footer">
-        <Footer class="2md:bg-none"/>
+        <PurpleSheetBottom />
+        <Footer class="2md:bg-none" />
       </div>
     </div>
   </div>
@@ -18,16 +18,16 @@
 <script>
 import NavBar from "@/components/NavBar.vue";
 
-import AboutAppDescription from "@/components/About/AboutAppDescription.vue"
-import AboutOverflowingCard from "@/components/About/AboutOverflowingCard.vue"
-import CoverWhaleProcess from "@/components/About/CoverWhaleProcess.vue"
-import PurpleSheetMid from "@/components/About/PurpleSheetMid.vue"
-import MeetTheTeam from "@/components/About/MeetTheTeam.vue"
-import PurpleSheetBottom from "@/components/About/PurpleSheetBottom.vue"
-import Footer from "@/components/Footer.vue"
+import AboutAppDescription from "@/components/About/AboutAppDescription.vue";
+import AboutOverflowingCard from "@/components/About/AboutOverflowingCard.vue";
+import CoverWhaleProcess from "@/components/About/CoverWhaleProcess.vue";
+import PurpleSheetMid from "@/components/About/PurpleSheetMid.vue";
+import MeetTheTeam from "@/components/About/MeetTheTeam.vue";
+import PurpleSheetBottom from "@/components/About/PurpleSheetBottom.vue";
+import Footer from "@/components/Footer.vue";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
     AboutAppDescription,
     AboutOverflowingCard,
@@ -36,9 +36,9 @@ export default {
     MeetTheTeam,
     PurpleSheetBottom,
     Footer,
-    NavBar
+    NavBar,
   },
-}
+};
 </script>
 
 <style scoped>

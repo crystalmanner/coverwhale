@@ -1,5 +1,5 @@
 <template>
-  <div class="nav flex justify-between items-center bg-purpleMain pt-12 pb-28 px-10">
+  <div class="nav flex justify-between items-center bg-purpleMain py-6 xs:py-10 px-5 xs:px-10">
     <router-link to="/" class="cursor-pointer">
       <img src="@/assets/cover-whale-logo-white.png" class="w-44" alt="">
     </router-link>
@@ -7,7 +7,7 @@
       class="hidden lg:flex items-center text-sm gap-9 text-white font-semibold text-gray-100"
     >
       <router-link to="/about">About</router-link>
-      <router-link to="">Coverage</router-link>
+      <router-link to="/coverage">Coverage</router-link>
       <router-link to="">Agents</router-link>
       <router-link to="">Investors</router-link>
       <router-link to="">Careers</router-link>

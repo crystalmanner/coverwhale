@@ -5,10 +5,16 @@ module.exports = {
     extend: {
       colors: {
         purpleMain: "#613675",
-        purpleLight: "#9f72b2",
+        purpleLight: "#9929e9",
         purpleExtraLight: "#ce7bed",
 
-        pinkMain: "#f9e4f9"
+        pinkMain: "#f9e4f9",
+        
+        blueLight: "",
+        blueMain: "#1CB0FF",
+
+        greenMain: "",
+        greenLight: "#20C2B3"
       },
       screens: {
         'xs': '425px',
