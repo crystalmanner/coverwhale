@@ -5,6 +5,7 @@
       <div class="extra-light-purple-gradient">
           <CoverWhaleForAgents/>
           <AgentsReviews/>
+          <AgentsPurpleCardBottom/>
           <Footer/>
       </div>
   </div>
@@ -16,6 +17,7 @@ import Footer from "@/components/Footer.vue"
 import AgentsDescription from "@/components/Agents/AgentsDescription.vue"
 import CoverWhaleForAgents from "@/components/Agents/CoverWhaleForAgents.vue"
 import AgentsReviews from "@/components/Agents/AgentsReviews.vue"
+import AgentsPurpleCardBottom from "@/components/Agents/AgentsPurpleCardBottom.vue"
 
 export default {
     name: "Agents",
@@ -24,6 +26,7 @@ export default {
         NavBar,
         CoverWhaleForAgents,
         AgentsReviews,
+        AgentsPurpleCardBottom,
         Footer
     },
 }

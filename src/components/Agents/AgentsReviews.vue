@@ -1,5 +1,5 @@
 <template>
-  <div class="w-11/12 xs:w-9/12 lg:w-7/12 mx-auto">
+  <div class="w-11/12 2md:w-7/12 mx-auto">
     <div>
       <h1 class="text-lg text-center mb-9">
         See what our agents say about us.

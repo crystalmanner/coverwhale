@@ -1,5 +1,5 @@
 <template>
-  <div class="w-10/12 xs:w-9/12 sm:w-8/12 lg:w-7/12 mx-auto pt-12 pb-20 md:py-28">
+  <div class="w-10/12 sm:w-8/12 lg:w-7/12 mx-auto pt-12 pb-20 md:py-28">
     <div class="text-center">
       <h1 class="pb-24 text-xl sm:text-3xl sm:w-8/12 mx-auto">
         Imagine a world, where insurance quotes were given in minutes. Meet

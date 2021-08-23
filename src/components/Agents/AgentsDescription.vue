@@ -1,6 +1,6 @@
 <template>
   <div class="text-white flex relative bg-purpleMain overflow-hidden">
-    <div class="px-5 sm:px-32 pb-6 pt-10 md:w-9/12 lg:w-3/5 z-10">
+    <div class="px-5 sm:px-32 pb-6 pt-10 w-9/12 2md:w-3/5 z-10">
     <p class="uppercase mb-12">AGENTS</p>
       <p class="text-4xl font-semibold pb-5">
         <span>Multiple programs</span> to support a wide range of trucking operations

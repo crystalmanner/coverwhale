@@ -15,7 +15,7 @@
         <BaseButton
         class="mx-12"
           buttonLabel="GET STARTED"
-          variant="bg-gray-200 border-none rounded-full px-6 py-2 text-purpleMain font-semibold w-40"
+          variant="bg-gray-200 border-none rounded-full px-5 py-2 text-purpleMain font-semibold w-40 text-sm font-semibold"
         >
           <template v-slot:iconPrepend>
             <img
