@@ -22,7 +22,12 @@ const routes = [
     path: '/coverage',
     name: 'Coverage',
     component: () => import('../views/Coverage.vue')
-  }
+  },
+  {
+    path: '/agents',
+    name: 'Agents',
+    component: () => import('../views/Agents.vue')
+  },
 ]
 
 const router = new VueRouter({

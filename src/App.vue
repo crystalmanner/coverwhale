@@ -22,24 +22,11 @@ export default {};
 }
 
 /* slide-x and fade transition */
-/* .slide-fade-enter-active,
-.slide-fade-leave-active {
-  transition: all 0.4s ease-in-out;
-}
-.slide-fade-enter-to {
-  transform: translateX(20px);
-  opacity: 1;
-}
-.slide-fade-leave-to {
-  transform: translateX(-20px);
-  opacity: 0;
-} */
-
 .slide-fade-enter-active {
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 .slide-fade-leave-active {
-  transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
 }
 .slide-fade-enter, .slide-fade-leave-to
 /* .slide-fade-leave-active below version 2.1.8 */ {
@@ -49,10 +36,10 @@ export default {};
 
 /* slide-y and fade transition */
 .slide-fade-y-enter-active {
-  transition: all .35s ease;
+  transition: all 0.35s ease;
 }
 .slide-fade-y-leave-active {
-  transition: all .35s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+  transition: all 0.35s cubic-bezier(1, 0.5, 0.8, 1);
 }
 .slide-fade-y-enter {
   transform: translateY(20px);
@@ -78,6 +65,7 @@ export default {};
 
 .pink-image-background {
   background: url("./assets/Home/home-lower-section-bg.png");
+  background-size: cover;
 }
 .purple-image-background {
   background: url("./assets/About/about-us-purple-bg.png");
@@ -113,7 +101,9 @@ export default {};
     rgba(41, 232, 174, 1) 100%
   );
 }
-
+.extra-light-purple-gradient {
+  background: linear-gradient(34deg, #FBF1F5 0%, #F6F3ED 14%, #EFEAF9 70%, #E1EEFF 100%);
+}
 
 .position-center {
   position: absolute;

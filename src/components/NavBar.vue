@@ -8,7 +8,7 @@
     >
       <router-link to="/about">About</router-link>
       <router-link to="/coverage">Coverage</router-link>
-      <router-link to="">Agents</router-link>
+      <router-link to="/agents">Agents</router-link>
       <router-link to="">Investors</router-link>
       <router-link to="">Careers</router-link>
       <router-link to="">Press</router-link>

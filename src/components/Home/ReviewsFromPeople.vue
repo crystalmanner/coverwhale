@@ -1,6 +1,9 @@
 <template>
   <div>
-    <transition name="slide-fade-y" mode="out-in">
+    <transition
+      :name="windowWidth < 1024 ? 'slide-fade' : 'slide-fade-y'"
+      mode="out-in"
+    >
       <div
         class="grid grid-cols-1 lg:grid-cols-2 items-center px-8 sm:px-16 md:px-32 gap-16"
         key="page1"
@@ -345,7 +348,21 @@ export default {
   data() {
     return {
       reviewCardsPage: 1,
+      windowWidth: window.innerHeight,
     };
+  },
+  mounted() {
+    this.$nextTick(() => {
+      window.addEventListener("resize", this.onResize);
+    });
+  },
+  beforeDestroy() {
+    window.removeEventListener("resize", this.onResize);
+  },
+  methods: {
+    onResize() {
+      this.windowWidth = window.innerWidth;
+    },
   },
 };
 </script>
